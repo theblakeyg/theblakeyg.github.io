@@ -1,0 +1,42 @@
+/* Navigation Menu */
+#navSection  {
+  text-align: center;
+}
+
+#navList {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: inline-block;
+}
+
+.navItem {
+  float: left;
+}
+
+.navItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navItem a:hover {
+  background-color: #111111;
+}
+
+/* Language List */
+#languageList {
+  margin: 0 auto;
+}
+
+.languageItem {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  border: 10px solid slategrey;
+  border-radius: 10px;
+  background-color: springgreen;
+}
